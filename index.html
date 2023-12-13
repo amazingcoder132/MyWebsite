@@ -36,45 +36,22 @@
         <br>
         <h1>Digital Art</h1>
         <a href="https://classroom.google.com/c/NjIyMjU5MDA1MDgw" target=_blank><button>Here</button></a>
-        <hr>
-        <h1 style="color:skyblue">Proxies</h1>
-    <p  style="color:orangered"><b>Interstellar Proxy</b></p>
-    <a href="https://interstellar.lol/" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:gray"><b>Rammerhead Proxy</b></p>
-    <a href="https://later.monkxy.org/" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:limegreen"><b>Utopia Proxy</b></p>
-    <a href="https://schoolguide.buzz/" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:hotpink"><b>TBG95 Proxy</b></p>
-    <a href="https://qag99.com/#google_vignette" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:darkgoldenrod"><b>Ludicrous Proxy</b></p>
-    <a href="https://luditudi.netlify.app/" target=_blank><button>Here</button></a>
-    <hr>
-    <h1 style="color:orchid">Games</h1>
-    <p style="color:cornflowerblue"><b>Jordan's Math Work</b></p>
-    <a href="https://galacticnetwork.github.io/jordansmathwork/" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:darkseagreen"><b>ExtremeMath games</b></p>
-    <a href="https://scratchcoding.tips/" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:forestgreen"><b>Ehap Games</b></p>
-    <a href="https://www.ehabgames.com/" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:coral"><b>Outred</b></p>
-    <a href="https://help.goguardian.online/" target=_blank><button>Here</button></a>
-    <br>
-    <p style="color:blueviolet"><b>3kh0</b></p>
-    <a href="https://pureprofake.netlify.app/" target=_blank><button>Here</button></a>
-    <hr>
-    <h1>Kahoot hacks</h1>
-    <p>It may be slow but it works</p>
-    <a href="https://kahoot.club/" target=_blank><button>Here</button></a>
-    <hr>
-    <h1>My next site please give me some ideas</h1>
-    <a href="2 index.html" target="_blank"><button>Next page</button></a>
+    <script>
+        let count = 0;
+        document.addEventListener('keydown', function(event) {
+            if(event.key === 'r') {
+                count++;
+                if(count === 25) {
+                    let btn = document.createElement("BUTTON");
+                    btn.innerHTML = "Well well well...";
+                    btn.onclick = function() {
+                        window.location.href = "2 index.html";
+                    };
+                    document.body.appendChild(btn);
+                }
+            }
+        });
+    </script>
 
 
     </body>
